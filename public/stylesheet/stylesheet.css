@@ -1,0 +1,175 @@
+/*
+li {
+    list-style: none;
+}
+
+.header {
+    height: 80px;
+    border-bottom: 1px solid #DDDDDD;
+}
+
+.header-left {
+    float: left;
+    padding: 10px 60px;
+    color: #ED7000;
+    font-size: 30px;
+}
+
+.header-right {
+    float: right;
+    color: #808080;
+}
+
+.header-right li {
+    float: left;
+    padding: 20px 30px;
+    border-left: 1px solid #DDDDDD;
+}
+
+.selected {
+    color: #ED7000;
+}
+
+.main {
+    width: 1300px;
+}
+
+.footer {
+    height: 200px;
+    background-color: #FCFFC0;
+    clear: left;
+}
+
+.sidebar {
+    height: 600px;
+    width: 200px;
+    float: left;
+    padding: 30px;
+}
+
+.sidebar li {
+    color: white;
+    background-color: #40BFB0;
+    padding: 15px;
+    margin-bottom: 10px;
+}
+
+.contents {
+    background-color: #E8E5FF;
+    height: 600px;
+    width: 900px;
+    float: left;
+}
+*/
+
+/* top.html */
+* {
+    box-sizing: border-box;
+}
+
+
+li {
+    list-style: none;
+}
+
+body {
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+header {
+    height: 65px;
+    width: 100%;
+    background-color: rgba(34, 49, 42, 0.9);
+    position: fixed;
+    top: 0;
+    z-index: 10;
+}
+
+.header-left {
+    float: left;
+}
+
+.header-right {
+    float: right;
+    color: aqua;
+}
+
+.header-right li {
+    float: left;
+    line-height: 65px;
+    margin-top: 0;
+    margin-right: 20px;
+    padding: 0 20px;
+}
+
+.selected {
+    color: aqua;
+    font-weight: bold;
+}
+
+.header-right li a {
+    color: white;
+}
+
+
+
+.logo {
+    line-height: 65px;
+    margin-top: 0;
+    margin-left: 20px;
+    color: aqua;
+}
+
+.top-wrapper {
+    height: 1000px;
+    padding: 180px 0 100px 0;
+    background-image: url("../image/top.jpg");
+    background-size: cover;
+    color: green;
+}
+
+.container {
+    width: 100%;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+.btn-wrapper {
+    margin: 20px 0;
+}
+
+.enter {
+    background-color: #239B76;
+}
+
+.btn {
+    padding: 8px 24px;
+    color: aqua;
+    display: inline-block;
+    opacity: 0.8;
+    border-radius: 4px;
+}
+
+.btn:hover {
+    opacity: 1;
+}
+
+.top-wrapper h1 {
+    opacity: 0.7;
+    font-size: 45px;
+    letter-spacing: 5px;
+}
+
+.top-wrapper p {
+    opacity: 0.7;
+    font-size: 14px;
+}
+
+
+
+
+
