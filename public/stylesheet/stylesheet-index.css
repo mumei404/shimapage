@@ -60,10 +60,10 @@ header {
 }
 
 .top-wrapper {
-    height: 1000px;
-    padding: 180px 0 100px 0;
-    background-image: url("../image/top.jpg");
-    background-size: cover;
+    height: 0;
+    padding-top: 75%;
+    background-image: url("../image/top2.JPG");
+    background-size: contain;
     color: green;
 }
 
