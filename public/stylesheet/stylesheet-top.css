@@ -10,6 +10,7 @@ header {
     height: 65px;
     width: 100%;
     background-color: rgba(34, 49, 42, 0.9);
+    margin: 0;
 }
 
 .header-left {
@@ -47,29 +48,26 @@ header {
 
 .main {
     width: 100%;
+    max-width: 100%;
+    height: 600px;
     margin: 0;
     background-color: blueviolet;
-}
-
-.footer {
-    height: 200px;
-    background-color: #FCFFC0;
-    clear: left;
+    overflow: hidden;
 }
 
 .sidebar {
     height: 600px;
-    width: 200px;
+    width: 30%;
+    max-width: 150px;
     float: left;
     padding: 10px;
     margin-left: 0;
-    background-color: aqua;
+    border-right: 10px solid aqua;
 }
 
 .sidebar ul {
     margin: 0;
     padding-left: 0;
-    border: 10px solid #000000;
 }
 
 .sidebar li {
@@ -82,7 +80,9 @@ header {
 .contents {
     background-color: #E8E5FF;
     height: 600px;
-    width: 700px;
+    width: 70%;
+    max-width: 100%;
+    margin: 0;
     float: left;
 }
 
@@ -102,4 +102,11 @@ table {
 th, td {
     border: solid 1px #999999;
     padding: 16px;
+}
+
+.footer {
+    height: 200px;
+    max-width: 100%;
+    background-color: #FCFFC0;
+    clear: left;
 }
