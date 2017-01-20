@@ -47,6 +47,7 @@ header {
 
 .main {
     width: 100%;
+    margin: 0;
     background-color: blueviolet;
 }
 
@@ -60,8 +61,15 @@ header {
     height: 600px;
     width: 200px;
     float: left;
-    padding: 30px;
+    padding: 10px;
+    margin-left: 0;
     background-color: aqua;
+}
+
+.sidebar ul {
+    margin: 0;
+    padding-left: 0;
+    border: 10px solid #000000;
 }
 
 .sidebar li {
@@ -80,6 +88,10 @@ header {
 
 .contents h1 {
     text-align: center;
+}
+
+.link li a {
+    line-height: 30px;
 }
 
 table {
