@@ -59,6 +59,14 @@ header {
     color: aqua;
 }
 
+.logo a:visited {
+    color: aqua;
+}
+
+.logo a:link {
+    color: aqua;
+}
+
 .top-wrapper {
     height: 0;
     padding-top: 75%;
@@ -104,6 +112,15 @@ header {
 .top-wrapper p {
     opacity: 0.7;
     font-size: 14px;
+}
+
+footer {
+    height: 50px;
+    max-width: 100%;
+    background-color: aliceblue;
+    clear: left;
+    border-top: 2px solid skyblue;
+    text-align: center;
 }
 
 

@@ -15,12 +15,21 @@ header {
 
 .header-left {
     float: left;
+    height: 65px;
 }
 
 .logo {
     line-height: 65px;
     margin-top: 0;
     margin-left: 20px;
+    color: aqua;
+}
+
+.logo a:visited {
+    color: aqua;
+}
+
+.logo a:link {
     color: aqua;
 }
 
