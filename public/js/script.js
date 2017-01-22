@@ -25,6 +25,7 @@ $(function(){
         var slideIndex = $('.slide').index($('.active'));
         
         $('.bn-btn').show();
+        
         if(slideIndex === 0) {
             $('.back').hide();
         } else if(slideIndex === $('.slide').length - 1) {
