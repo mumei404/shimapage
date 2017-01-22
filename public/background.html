@@ -4,6 +4,7 @@
     <meta charset="utf-8">
     <title>Shimapage</title>
     <link rel="stylesheet" href="stylesheet/stylesheet-top.css">
+    <script type="text/javascript" src="js/jquery-3.1.1.min.js"></script>
 </head>
 
 <body>
@@ -24,7 +25,31 @@
             
     </header>
     
+    <div class="photo-modal">
+        <div class="modal">
+            <div class="close-modal btn">
+                <p>閉じる</p>
+            </div>
+            <ul class="galary">
+                <li class="slide active">
+                    <img src="image/photo1.jpg">
+                </li>
+                <li class="slide">
+                    <img src="image/photo2.jpg">
+                </li>
+                <li class="slide">
+                    <img src="image/photo3.jpg">
+                </li>
+            </ul>
+            <div class="backnext">
+                <div class="bn-btn back">戻る</div>
+                <div class="bn-btn next">次へ</div>
+            </div>
+        </div>
+    </div>
+    
     <div class="main">
+        
         <div class="sidebar">
             <ul>
                 <a href="profile.html"><li>
@@ -63,18 +88,21 @@
                 </tr>
                 <tr>
                     <th>2016年　8月</th>
-                    <td><a href="http://www.eng.rmutt.ac.th" target="_blank" class="school">ラジャマンガラ工科大学タンヤブリ校</a>　留学（1ヶ月間）     <a href="" class="btn photo">写真</a></td>
+                    <td><a href="http://www.eng.rmutt.ac.th" target="_blank" class="school">ラジャマンガラ工科大学タンヤブリ校</a>　留学（1ヶ月間）     <a href="#" class="btn photo">写真</a></td>
                 </tr>
                 <tr>
                     <th>2018年　3月</th>
                     <td>　　　　　　　　　　　〃　　　　　　　　　　　　　卒業見込</td>
                 </tr>
             </table>
+            
+            
         </div>
     </div>
 
     <div class="footer">
         <p>&copy; Copyright Tomoya Shimazaki</p>
     </div>
+    <script src="js/script.js"></script>
 </body>
 </html>
