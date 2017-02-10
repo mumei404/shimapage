@@ -242,5 +242,13 @@ th, td {
     background-color: aliceblue;
     clear: left;
     border-top: 2px solid skyblue;
-    text-align: center;
+}
+
+#copyright {
+    display: inline-block;
+}
+
+.fb-like {
+    float: right;
+    margin-top: 10px;
 }
