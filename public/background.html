@@ -5,6 +5,8 @@
     <title>Shimapage</title>
     <link rel="stylesheet" href="stylesheet/stylesheet-top.css">
     <script type="text/javascript" src="js/jquery-3.1.1.min.js"></script>
+    <script src="js/jquery.simpleWeather.min.js"></script>
+    
 </head>
 
 <body>
@@ -85,6 +87,8 @@
                 
             </ul>
             <a href="https://www.facebook.com/mumei404" target="_blank" style="text-decoration:none;"><div style="display:block; margin:0 auto 30px; width:150px; height:auto; background:#ffffff; border:1px solid #3b5998;"><div style="margin:0; background:#3b5998; color:#ffffff; font-weight:bold; font-size:16px; padding:5px 10px;">facebook</div><div style="text-align:center;"><img src="image/facebook.JPG" style="width:100%; height:auto;"></div></div></a>
+            
+            
         
         </div>
         <div class="contents">
@@ -115,8 +119,10 @@
                     <td>　　　　　　　　　　　〃　　　　　　　　　　　　　卒業見込</td>
                 </tr>
             </table>
-            
-            
+            <div id="weather"></div>
+            <button class="js-geolocation" style="display: none;">
+                Use your Location
+            </button>
         </div>
     </div>
 
