@@ -33,7 +33,7 @@ $(function(){
         }
     });
     
-    if (navigator.hasOwnProperty('geolocation')) {
+    /*if (navigator.hasOwnProperty('geolocation')) {
         $('.js-geolocation').show();
     } else {
         $('.js-geolocation').hide();
@@ -68,6 +68,6 @@ $(function(){
         });
     });
     
-    loadWeather('Chiba', '');
+    loadWeather('Chiba', '');*/
     
 });
